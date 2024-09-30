@@ -1,0 +1,156 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.label-left, .label-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #888;
+    user-select: none;
+    pointer-events: none;
+    background-color: white;
+    z-index: 1;
+    padding: 0 5px;
+}
+
+.label-left {
+    left: 10px;
+}
+
+.label-right {
+    right: 10px;
+}
+
+.game {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.card img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.label {
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.results {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.results p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.end-message {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    margin: 40px 20px; /* Add margin above, below, left, and right */
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 90%;
+    word-wrap: break-word;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    .label-left, .label-right {
+        font-size: 14px;
+    }
+
+    .game-container {
+        height: 300px;
+    }
+
+    .results p {
+        font-size: 20px;
+    }
+
+    .end-message {
+        font-size: 20px;
+        padding: 15px;
+        margin: 30px 10px; /* Adjust margin for smaller screens */
+    }
+}
+
+@media (max-width: 400px) {
+    .label-left, .label-right {
+        font-size: 12px;
+    }
+
+    .game-container {
+        height: 250px;
+    }
+
+    .results p {
+        font-size: 18px;
+    }
+
+    .end-message {
+        font-size: 18px;
+        padding: 10px;
+        margin: 20px 5px; /* Further adjust margin for smallest screens */
+    }
+}
