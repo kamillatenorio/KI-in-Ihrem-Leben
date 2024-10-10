@@ -74,11 +74,11 @@ function displayFinalMessage() {
         ];
     } else if (using <= 7) {
         messages = [
-            "KI-Systeme werden zu einem großartigen Verbündeten in Ihrem täglichen Leben!",
+            "KI-Systeme sind großartige Verbündete in Ihrem täglichen Leben!",
         ];
     } else {
         messages = [
-            "Wow! Sie sind ein Profi darin, KI-Systeme in Ihre Routine zu integrieren und so die Effizienz und Produktivität zu maximieren.",
+            "Wow! Sie sind ein Profi darin, KI-Systeme in Ihre tägliche Routine zu integrieren und so die Effizienz und Produktivität zu maximieren.",
         ];
     }
 
