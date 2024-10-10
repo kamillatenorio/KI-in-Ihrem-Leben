@@ -2,16 +2,16 @@ let using = 0;
 let notUsing = 0;
 
 const cards = [
-    { src: 'contentGenerator.png', label: 'KI-Chatbot-Systeme (z. B. ChatGPT)', type: 'use' },
-    { src: 'recommendation.jpeg', label: 'KI-Empfehlungssysteme (z. B. Netflix-Empfehlungssystem)', type: 'use' },
-    { src: 'personal_assistant.jpeg', label: 'KI-Sprachassistenten (z. B. Siri, Alexa, Google Assistant)', type: 'use' },
-    { src: 'image_generation.png', label: 'KI-Bildgenerierungssysteme (z. B. DALL-E, Midjourney)', type: 'use' },
-    { src: 'translation.png', label: 'KI-Übersetzungssysteme (z. B. Google Translator, DeepL)', type: 'use' },
-    { src: 'autonomous_vehicle.png', label: 'Autonome KI-Fahrzeuge (z. B. Tesla Autopilot, Waymo)', type: 'use' },
-    { src: 'transcription.jpeg', label: 'KI-Transkriptionssysteme (z. B. OtterAI, KonchAI)', type: 'use' },
-    { src: 'grammarly.jpeg', label: 'KI-Schreibassistenzsysteme (z. B. Grammarly)', type: 'use' },
-    { src: 'CoPilot.png', label: 'KI-Codierungsassistent (z. B. GitHub Copilot)', type: 'use' },
-    { src: 'music_composition.png', label: 'KI-Musikkompositionssysteme (z. B. Filmora AI Music Composer, AIVA)', type: 'use' },
+    { src: 'contentGenerator.png', label: 'KI-Chatbot-Systeme (z.B. ChatGPT)', type: 'use' },
+    { src: 'recommendation.jpeg', label: 'KI-Empfehlungssysteme (z.B. Netflix-Empfehlungssystem)', type: 'use' },
+    { src: 'personal_assistant.jpeg', label: 'KI-Sprachassistenten (z.B. Siri, Alexa, Google Assistant)', type: 'use' },
+    { src: 'image_generation.png', label: 'KI-Bildgenerierungssysteme (z.B. DALL-E, Midjourney)', type: 'use' },
+    { src: 'translation.png', label: 'KI-Übersetzungssysteme (z.B. Google Translator, DeepL)', type: 'use' },
+    { src: 'autonomous_vehicle.png', label: 'Autonome KI-Fahrzeuge (z.B. Tesla Autopilot, Waymo)', type: 'use' },
+    { src: 'transcription.jpeg', label: 'KI-Transkriptionssysteme (z.B. OtterAI, KonchAI)', type: 'use' },
+    { src: 'grammarly.jpeg', label: 'KI-Schreibassistenzsysteme (z.B. Grammarly)', type: 'use' },
+    { src: 'CoPilot.png', label: 'KI-Codierungsassistent (z.B. GitHub Copilot)', type: 'use' },
+    { src: 'music_composition.png', label: 'KI-Musikkompositionssysteme (z.B. Filmora AI Music Composer, AIVA)', type: 'use' },
 ];
 
 let currentIndex = 0;
