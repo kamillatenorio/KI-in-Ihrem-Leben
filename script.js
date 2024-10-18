@@ -92,9 +92,9 @@ function displayFinalMessage() {
     game.innerHTML = `
         <div class="card end-message">
             <p>${message}</p>
-            <div class="results">
+            <!-- <div class="results">
                 <p>Sie verwenden <span id="using">${using}</span> der 10 vorgestellten KI-Systeme.</p> 
-            </div>
+            </div>!-->
         </div>
     `;
 }
