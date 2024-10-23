@@ -11,7 +11,7 @@ const cards = [
     { src: 'autonomous_vehicle.png', label: 'Autonome KI-Fahrzeuge (z.B. Tesla Autopilot, Waymo)', type: 'use' },
     { src: 'transcription.jpeg', label: 'KI-Transkriptionssysteme (z.B. OtterAI, KonchAI)', type: 'use' },
     { src: 'CoPilot.png', label: 'KI-Codierungsassistent (z.B. GitHub Copilot)', type: 'use' },
-    { src: 'music_composition.png', label: 'KI-Musikkompositionssysteme (z.B. Filmora AI Music Composer, AIVA)', type: 'use' },
+    { src: 'music_composition.png', label: 'KI-Musikkompositionssysteme (z.B. Filmora AI Music Composer, beatoven.ai)', type: 'use' },
 ];
 
 let currentIndex = 0;
